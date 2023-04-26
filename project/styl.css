@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+html {
+    
+    font-size: 1.5rem;
+}
+
+body {
+    font: 17px "Poppins";
+    background: #f9f9f9;
+    color: #414042;
+    margin: 0;
+    text-align: center;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    width: 250px;
+
+}
+
+table, th, td {
+    border: 1px solid #a8349a;
+    border-collapse: separate; 
+    font-size: 1rem;
+    margin-left: 280px;
+    
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    
+}
+
+
+.table {
+    width: auto;
+    height: auto;
+}
+
+
+header  {
+    background-color: #c1bbe0; 
+   
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+  
+    
+
+}
+
+nav {
+    display: block;
+}
+
+
+section  {
+font-size: 1,9rem;
+    
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+
+nav ul a {
+    color: white;
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul a:hover,
+.aktivni a {
+    border-bottom: 2px solid #a8349a;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px 50px 20px 20px;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+    padding: 10px 0;
+    color: #47006b;
+}
+
+article h1 {
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 4px solid #a8349a;
+    
+    
+}
+
+article h2 {
+    font-size: 1.8em;
+}
+
+article header {
+    height: 70px;
+    width: 270;
+}
+
+article section p {
+    margin-bottom: 2.5em;
+    line-height: 2.3em;
+    font-size: 1,2rem;
+}
+
+article section a {
+    color: #a8349a;
+}
+
+.centrovany {
+    text-align: center;
+}
+
+
+
+
+#logo > * {
+    margin: 0 0 0 50px;
+}
+
+#logo h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: white;
+}
+
+#logo h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#logo small {
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+
+
+
+
